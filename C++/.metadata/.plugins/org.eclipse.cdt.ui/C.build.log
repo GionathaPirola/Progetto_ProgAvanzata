@@ -1,0 +1,73 @@
+11:38:51 **** Building Selected Files of configuration Debug for project C ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Test.o "..\\Test.c" 
+..\Test.c: In function 'hash':
+..\Test.c:3:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+    3 |     for(int i=0; i< strlen(str); i++){
+      |                     ^~~~~~
+..\Test.c:1:1: note: include '<string.h>' or provide a declaration of 'strlen'
+  +++ |+#include <string.h>
+    1 | int hash(char* str){
+..\Test.c:3:21: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+    3 |     for(int i=0; i< strlen(str); i++){
+      |                     ^~~~~~
+..\Test.c:3:21: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Test.c:4:28: error: called object is not a function or function pointer
+    4 |         hash = hash + (int)str[i](i+1);
+      |                            ^~~
+..\Test.c: In function 'hash_ric':
+..\Test.c:11:8: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   11 |     if(strlen(str)-i>0){
+      |        ^~~~~~
+..\Test.c:11:8: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Test.c:11:15: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+   11 |     if(strlen(str)-i>0){
+      |               ^~~
+      |               |
+      |               char
+..\Test.c:11:15: note: expected 'const char *' but argument is of type 'char'
+..\Test.c:12:45: error: subscripted value is neither array nor pointer nor vector
+   12 |         return hash_ric(str, i+1) + (int)str[i](i+1);
+      |                                             ^
+..\Test.c:10:9: warning: unused variable 'hash' [-Wunused-variable]
+   10 |     int hash = 0;
+      |         ^~~~
+..\Test.c: In function 'hash_tail':
+..\Test.c:19:8: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+   19 |     if(strlen(str)-i>0){
+      |        ^~~~~~
+..\Test.c:19:8: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Test.c:19:15: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+   19 |     if(strlen(str)-i>0){
+      |               ^~~
+      |               |
+      |               char
+..\Test.c:19:15: note: expected 'const char *' but argument is of type 'char'
+..\Test.c:20:29: error: subscripted value is neither array nor pointer nor vector
+   20 |         sum = sum + (int)str[i](i+1);
+      |                             ^
+..\Test.c:18:9: warning: unused variable 'hash' [-Wunused-variable]
+   18 |     int hash = 0;
+      |         ^~~~
+..\Test.c: In function 'main':
+..\Test.c:28:25: warning: passing argument 1 of 'hash_tail' makes integer from pointer without a cast [-Wint-conversion]
+   28 |     int res = hash_tail(str, 0,0);
+      |                         ^~~
+      |                         |
+      |                         char *
+..\Test.c:17:20: note: expected 'char' but argument is of type 'char *'
+   17 | int hash_tail(char str,int i,int sum){
+      |               ~~~~~^~~
+..\Test.c:29:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   29 |     printf("\nvalue: %d", res);
+      |     ^~~~~~
+..\Test.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | int hash(char* str){
+..\Test.c:29:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   29 |     printf("\nvalue: %d", res);
+      |     ^~~~~~
+..\Test.c:29:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+
+11:38:52 Build Failed. 3 errors, 11 warnings. (took 222ms)
+

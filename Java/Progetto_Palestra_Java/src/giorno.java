@@ -1,0 +1,9 @@
+
+public enum giorno {
+	LUNEDI,
+	MARTEDI,
+	MERCOLEDI,
+	GIOVEDI,
+	VENERDI,
+	SABATO
+}

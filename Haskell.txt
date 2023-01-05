@@ -1,0 +1,61 @@
+aggiungiCorsi:: Int-> IO [String]
+aggiungiCorsi 0 = return []
+aggiungiCorsi x = do 
+                  putStrLn "Inserisci il corso: "
+                  corso <- getLine
+                  putStrLn "Continuare?: si=1, no=0"
+                  input1 <- getLine
+                  let fine = (read input1 :: Int)
+                  corsoagg <- aggiungiCorsi fine
+                  return (corso:corsoagg)
+
+aggiungiCFU:: [String]->IO [Int]
+aggiungiCFU [] = return []
+aggiungiCFU (x:xs) = do 
+                  putStr "Inserisci i CFU di "
+                  print(x)
+                  input1 <- getLine
+                  let cfu = (read input1 :: Int)
+                  cfi <- aggiungiCFU xs
+                  return (cfu:cfi)
+                  
+aggiungiVoti:: [String]->IO [Int]
+aggiungiVoti [] = return []
+aggiungiVoti (x:xs) = do 
+                putStr "Inserisci il voto di "
+                print(x)
+                input1 <- getLine
+                let voto = (read input1 :: Int)
+                if(voto>=18 && voto<=30) then do
+                                              voti<-aggiungiVoti xs 
+                                              return (voto:voti) 
+                else do 
+                      voti<-aggiungiVoti (x:xs)
+                      return voti
+
+unisci::[a]->[Int]->[Int]->[(a,Int,Int)]
+unisci [] [] [] = []
+unisci (x:xs) (y:ys) (z:zs) = (x,y,z) : unisci xs ys zs
+
+calcolaVotoAgg:: [Int]->[Int]->[Int]
+calcolaVotoAgg [] [] = []
+calcolaVotoAgg (x:xs) (y:ys) = [x*y] ++ calcolaVotoAgg xs ys
+
+calcolaVoto:: [Int]->[Int]->Int
+calcolaVoto [] [] = 0
+calcolaVoto x y = sum(calcolaVotoAgg x y)`div`sum(y)*110`div`30
+
+
+main = do  
+          corsi <- aggiungiCorsi 1
+          print(corsi)
+          putStrLn ""
+          cfu <-aggiungiCFU corsi
+          print(cfu)
+          putStrLn ""
+          voti <-aggiungiVoti corsi
+          print(voti)
+          putStrLn ""
+          print(unisci corsi cfu voti)
+          putStr "Il voto di laurea sara' "
+          print(calcolaVoto voti cfu)
