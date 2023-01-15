@@ -25,7 +25,7 @@ public class Main {
 		SequenzaOrdinabile<Corso> Corsi = new SequenzaOrdinabile();
 		Corsi.insert(cy);
 		Corsi.insert(ca);
-		Corsi.insert(ca2);	//Non viene inserito in realtà perchè esiste già il corso di cardio il lunedi, implementato con compareTo
+		Corsi.insert(ca2);	//Non viene inserito in realtà perchè esiste già il corso di addominali il lunedi, implementato con compareTo
 		Corsi.insert(cc);
 		
 		Corsi.sort();	//Ordinamento dei corsi in ordine di giorno
@@ -38,7 +38,7 @@ public class Main {
 
 		System.out.println(Abbonati.toString());
 		
-		//Per binding dinamico
+		//Per binding dimanico
 		a.applicaSconto();
 		a.applicaSconto(0.01);
 		

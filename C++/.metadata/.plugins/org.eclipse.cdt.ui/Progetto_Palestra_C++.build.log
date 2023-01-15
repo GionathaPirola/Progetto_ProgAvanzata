@@ -1,12 +1,8 @@
-16:18:09 **** Incremental Build of configuration Debug for project Progetto_Palestra_C++ ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+10:09:21 **** Incremental Build of configuration Debug for project Progetto_Palestra_C++ ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
-Cannot run program "g++": Launching failed
+Assembler messages:
+Fatal error: can't create src\main.o: No such file or directory
 
-Error: Program "g++" not found in PATH
-PATH=[\bin;\bin;\usr\bin;C:/Users/giona/OneDrive/Documenti/Unibg-Portatile/Programmazione_Avanzata/eclipse-cpp-PA/eclipse-cpp-PA/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin/server;C:/Users/giona/OneDrive/Documenti/Unibg-Portatile/Programmazione_Avanzata/eclipse-cpp-PA/eclipse-cpp-PA/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\giona\AppData\Local\Microsoft\WindowsApps;C:\Users\giona\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\giona\AppData\Local\GitHubDesktop\bin;C:\Users\giona\OneDrive\Documenti\Unibg-Portatile\Programmazione_Avanzata\eclipse-cpp-PA\eclipse-cpp-PA\eclipse]
-
-
-16:18:09 Build Finished. 0 errors, 0 warnings. (took 91ms)
+10:09:21 Build Finished. 0 errors, 0 warnings. (took 488ms)
 

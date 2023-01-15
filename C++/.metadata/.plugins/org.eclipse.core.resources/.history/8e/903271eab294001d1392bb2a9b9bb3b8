@@ -20,8 +20,7 @@ class Abbonato{
 		int codice;
 		bool iscritto;
 
-		//Uso di inizialation list
-		Abbonato(string nome, string cognome, int anno_nascita, bool iscritto) : anno_nascita(anno_nascita){
+		Abbonato(string nome, string cognome, int anno_nascita, bool iscritto){
 
 			//Campo statico per le genarazione di id
 			static int codice_generico = 0;
@@ -31,6 +30,7 @@ class Abbonato{
 				codice_generico = codice_generico + 1;
 			this->nome = nome;
 			this->cognome = cognome;
+			this->anno_nascita = anno_nascita;
 			this->conto = 500;
 			this->codice = codice_generico;
 		}

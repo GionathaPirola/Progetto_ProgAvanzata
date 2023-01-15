@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Corso.getOra_inizio()&apos; to &apos;getGiorno&apos;&#x0D;&#x0A;- Original project: &apos;Progetto_Palestra_Java&apos;&#x0D;&#x0A;- Original element: &apos;Corso.getOra_inizio()&apos;&#x0D;&#x0A;- Renamed element: &apos;Corso.getGiorno()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getOra_inizio&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Corso.java[Corso~getOra_inizio" name="getGiorno" references="true" stamp="1673772670667" version="1.0"/>
+</session>

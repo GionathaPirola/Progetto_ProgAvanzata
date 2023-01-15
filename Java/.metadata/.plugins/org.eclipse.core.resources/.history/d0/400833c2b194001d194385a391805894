@@ -8,7 +8,7 @@ public abstract class Corso implements Comparable<Corso>{
 		return costo;
 	}
 	
-	public giorno getGiorno() {
+	public giorno getOra_inizio() {
 		return giorno;
 	}
 	

@@ -20,7 +20,6 @@ class Abbonato{
 		int codice;
 		bool iscritto;
 
-		//Uso di inizialation list
 		Abbonato(string nome, string cognome, int anno_nascita, bool iscritto) : anno_nascita(anno_nascita){
 
 			//Campo statico per le genarazione di id
