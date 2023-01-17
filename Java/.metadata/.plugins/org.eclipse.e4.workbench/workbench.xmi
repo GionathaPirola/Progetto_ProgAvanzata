@@ -98,7 +98,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_2bJ37WgUEe2GjKWh5JaCTg" containerData="8516" selectedElement="_2bJ37mgUEe2GjKWh5JaCTg">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_2bJ37WgUEe2GjKWh5JaCTg" containerData="8516" selectedElement="_2bJ39WgUEe2GjKWh5JaCTg">
               <children xsi:type="basic:PartSashContainer" xmi:id="_2bJ37mgUEe2GjKWh5JaCTg" containerData="7251" selectedElement="_2bJ372gUEe2GjKWh5JaCTg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_2bJ372gUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_2a-4wGgUEe2GjKWh5JaCTg"/>
                 <children xsi:type="basic:PartStack" xmi:id="_2bJ38GgUEe2GjKWh5JaCTg" elementId="right" containerData="2500" selectedElement="_2bJ38WgUEe2GjKWh5JaCTg">
@@ -205,7 +205,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_0Fh48HlaEe2PAcloGgBGPw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Main.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; partName=&quot;Main.java&quot; title=&quot;Main.java&quot; tooltip=&quot;Progetto_Palestra_Java/src/Main.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Progetto_Palestra_Java/src/Main.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1595&quot; selectionTopPixel=&quot;202&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Main.java&quot; partName=&quot;Main.java&quot; title=&quot;Main.java&quot; tooltip=&quot;Progetto_Palestra_Java/src/Main.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Progetto_Palestra_Java/src/Main.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1595&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -347,7 +347,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2WL4UGgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_T16rgJSxEe2GmqE8Rnwj5w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1r3JNGgUEe2GjKWh5JaCTg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_fLaGkJWBEe2aXMyMfzCoAg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1r3JNGgUEe2GjKWh5JaCTg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2WL4UWgUEe2GjKWh5JaCTg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -378,7 +378,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2WMfZGgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_T175o5SxEe2GmqE8Rnwj5w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1r2iDWgUEe2GjKWh5JaCTg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_fLdJ4JWBEe2aXMyMfzCoAg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_1r2iDWgUEe2GjKWh5JaCTg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_2WMfZWgUEe2GjKWh5JaCTg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -466,21 +466,18 @@
     <bindings xmi:id="_1sFycmgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+J" command="_1r17ImgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sFydmgUEe2GjKWh5JaCTg" keySequence="CTRL++" command="_1r1UAmgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sFyfGgUEe2GjKWh5JaCTg" keySequence="CTRL+-" command="_1r3wJWgUEe2GjKWh5JaCTg"/>
-    <bindings xmi:id="_1sFyiWgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+C" command="_1r1T92gUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sGZh2gUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+F" command="_1r2iP2gUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sGZkGgUEe2GjKWh5JaCTg" keySequence="ALT+CTRL+J" command="_1r2h9GgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sGZmGgUEe2GjKWh5JaCTg" keySequence="ALT+SHIFT+A" command="_1r0s0WgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sHAnmgUEe2GjKWh5JaCTg" keySequence="CTRL+J" command="_1r1T0WgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sHAomgUEe2GjKWh5JaCTg" keySequence="CTRL+L" command="_1r3JA2gUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sHnoGgUEe2GjKWh5JaCTg" keySequence="CTRL+O" command="_1r0Fz2gUEe2GjKWh5JaCTg"/>
-    <bindings xmi:id="_1sHnpGgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+/" command="_1r3wP2gUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sHnt2gUEe2GjKWh5JaCTg" keySequence="CTRL+D" command="_1r1T5WgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sIOvWgUEe2GjKWh5JaCTg" keySequence="CTRL+=" command="_1r1UAmgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sIOwWgUEe2GjKWh5JaCTg" keySequence="ALT+SHIFT+Y" command="_1r0FomgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sIOymgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+DEL" command="_1r3I8WgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sI1wGgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+X" command="_1r0ssWgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sI1wWgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+Y" command="_1r3wImgUEe2GjKWh5JaCTg"/>
-    <bindings xmi:id="_1sI1xWgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+\" command="_1r3JKmgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sI1xmgUEe2GjKWh5JaCTg" keySequence="CTRL+DEL" command="_1r3JBWgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sI1yGgUEe2GjKWh5JaCTg" keySequence="ALT+ARROW_UP" command="_1r4XPGgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sI1yWgUEe2GjKWh5JaCTg" keySequence="ALT+ARROW_DOWN" command="_1r17EmgUEe2GjKWh5JaCTg"/>
@@ -510,6 +507,9 @@
     <bindings xmi:id="_1sKrAGgUEe2GjKWh5JaCTg" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_1r0tDmgUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sLSDGgUEe2GjKWh5JaCTg" keySequence="ALT+/" command="_1r3wO2gUEe2GjKWh5JaCTg"/>
     <bindings xmi:id="_1sLSEGgUEe2GjKWh5JaCTg" keySequence="SHIFT+CR" command="_1r3wNGgUEe2GjKWh5JaCTg"/>
+    <bindings xmi:id="_e209sJWBEe2aXMyMfzCoAg" keySequence="CTRL+SHIFT+C" command="_e2bVEJWBEe2aXMyMfzCoAg"/>
+    <bindings xmi:id="_e22y4JWBEe2aXMyMfzCoAg" keySequence="CTRL+SHIFT+/" command="_e2b8IJWBEe2aXMyMfzCoAg"/>
+    <bindings xmi:id="_e25PIJWBEe2aXMyMfzCoAg" keySequence="CTRL+SHIFT+\" command="_e2bVEpWBEe2aXMyMfzCoAg"/>
   </bindingTables>
   <bindingTables xmi:id="_1sEkUWgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.contexts.window" bindingContext="_1qvuqmgUEe2GjKWh5JaCTg">
     <bindings xmi:id="_1sEkUmgUEe2GjKWh5JaCTg" keySequence="ALT+CTRL+SHIFT+T" command="_1r1TxmgUEe2GjKWh5JaCTg"/>
@@ -828,6 +828,9 @@
   <bindingTables xmi:id="_2bB8GWgUEe2GjKWh5JaCTg" bindingContext="_2bB8GGgUEe2GjKWh5JaCTg"/>
   <bindingTables xmi:id="_2bB8G2gUEe2GjKWh5JaCTg" bindingContext="_2bB8GmgUEe2GjKWh5JaCTg"/>
   <bindingTables xmi:id="_2bB8HWgUEe2GjKWh5JaCTg" bindingContext="_2bB8HGgUEe2GjKWh5JaCTg"/>
+  <bindingTables xmi:id="_e28ScJWBEe2aXMyMfzCoAg" elementId="org.eclipse.ui.console.ConsoleView" bindingContext="_1r6MSWgUEe2GjKWh5JaCTg">
+    <bindings xmi:id="_e28ScZWBEe2aXMyMfzCoAg" keySequence="CTRL+INSERT" command="_e2bVE5WBEe2aXMyMfzCoAg"/>
+  </bindingTables>
   <rootContext xmi:id="_1qvuqWgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_1qvuqmgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_1qvuq2gUEe2GjKWh5JaCTg" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -2127,6 +2130,12 @@
   <commands xmi:id="_2SiudWgUEe2GjKWh5JaCTg" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Execute" commandName="Execute" description="Execute the Selected Text" category="_1ry3n2gUEe2GjKWh5JaCTg"/>
   <commands xmi:id="_2SiudmgUEe2GjKWh5JaCTg" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Display" commandName="Display" description="Display Result of Evaluating Selected Text" category="_1ry3n2gUEe2GjKWh5JaCTg"/>
   <commands xmi:id="_2SjVgGgUEe2GjKWh5JaCTg" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.DisplayViewActions/org.eclipse.jdt.debug.ui.displayViewToolbar.Inspect" commandName="Inspect" description="Inspect Result of Evaluating Selected Text" category="_1ry3n2gUEe2GjKWh5JaCTg"/>
+  <commands xmi:id="_e2bVEJWBEe2aXMyMfzCoAg" elementId="org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand" commandName="Toggle Line Comment" category="_1ry3gmgUEe2GjKWh5JaCTg"/>
+  <commands xmi:id="_e2bVEZWBEe2aXMyMfzCoAg" elementId="AnsiConsole.command.enable_disable" commandName="Enable / Disable ANSI Support" description="Enable / disable ANSI Support" category="_e2aG8JWBEe2aXMyMfzCoAg"/>
+  <commands xmi:id="_e2bVEpWBEe2aXMyMfzCoAg" elementId="org.eclipse.tm4e.languageconfiguration.removeBlockCommentCommand" commandName="Remove Block Comment" category="_1ry3gmgUEe2GjKWh5JaCTg"/>
+  <commands xmi:id="_e2bVE5WBEe2aXMyMfzCoAg" elementId="AnsiConsole.command.copy_without_escapes" commandName="Copy Text Without ANSI Escapes" description="Copy the console content to clipboard, removing the escape sequences" category="_e2aG8JWBEe2aXMyMfzCoAg"/>
+  <commands xmi:id="_e2b8IJWBEe2aXMyMfzCoAg" elementId="org.eclipse.tm4e.languageconfiguration.addBlockCommentCommand" commandName="Add Block Comment" category="_1ry3gmgUEe2GjKWh5JaCTg"/>
+  <commands xmi:id="_e2b8IZWBEe2aXMyMfzCoAg" elementId="AnsiConsole.command.copy_with_escapes" commandName="Copy Text With ANSI Escapes" description="Copy the console content to clipboard, including the escape sequences" category="_e2aG8JWBEe2aXMyMfzCoAg"/>
   <addons xmi:id="_1qvurWgUEe2GjKWh5JaCTg" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_1qvurmgUEe2GjKWh5JaCTg" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_1qvur2gUEe2GjKWh5JaCTg" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2138,7 +2147,7 @@
   <addons xmi:id="_1qvutWgUEe2GjKWh5JaCTg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_1qvutmgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_1q44kGgUEe2GjKWh5JaCTg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_e4qJsJWBEe2aXMyMfzCoAg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_1ry3gGgUEe2GjKWh5JaCTg" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_1ry3gWgUEe2GjKWh5JaCTg" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
@@ -2172,4 +2181,5 @@
   <categories xmi:id="_1ry3nWgUEe2GjKWh5JaCTg" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
   <categories xmi:id="_1ry3nmgUEe2GjKWh5JaCTg" elementId="org.eclipse.oomph.commands" name="Oomph"/>
   <categories xmi:id="_1ry3n2gUEe2GjKWh5JaCTg" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
+  <categories xmi:id="_e2aG8JWBEe2aXMyMfzCoAg" elementId="AnsiConsole.command.categoryid" name="ANSI Support Commands"/>
 </application:Application>
