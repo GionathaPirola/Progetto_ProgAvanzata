@@ -4794,6 +4794,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< Updated upstream
 !SESSION 2023-01-15 09:47:27.292 -----------------------------------------------
 eclipse.buildId=4.24.0.I20220607-0700
 java.version=17.0.4
@@ -4848,6 +4849,9 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 !SESSION 2023-01-16 10:38:00.712 -----------------------------------------------
+=======
+!SESSION 2023-01-13 11:50:14.956 -----------------------------------------------
+>>>>>>> Stashed changes
 eclipse.buildId=4.26.0.20221201-1200
 java.version=17.0.5
 java.vendor=Eclipse Adoptium
@@ -4855,12 +4859,21 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< Updated upstream
 !ENTRY ch.qos.logback.classic 1 0 2023-01-16 10:38:01.947
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
 !ENTRY org.eclipse.core.resources 4 567 2023-01-16 10:38:06.004
 !MESSAGE Workspace restored, but some problems occurred.
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2023-01-16 10:38:06.004
+=======
+!ENTRY ch.qos.logback.classic 1 0 2023-01-13 11:50:18.264
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 4 567 2023-01-13 11:50:49.227
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-01-13 11:50:49.227
+>>>>>>> Stashed changes
 !MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -4914,7 +4927,11 @@ org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cm
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+<<<<<<< Updated upstream
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2023-01-16 10:38:06.004
+=======
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-01-13 11:50:49.227
+>>>>>>> Stashed changes
 !MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !STACK 0
 java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
@@ -4969,12 +4986,21 @@ java.lang.Exception: The project description file (.project) for '.org.eclipse.e
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 
+<<<<<<< Updated upstream
 !ENTRY ch.qos.logback.classic 1 0 2023-01-16 10:38:06.574
 !MESSAGE Logback config file: C:\Users\giona\OneDrive\Documenti\Unibg-Condiviso\Programmazione_Avanzata\Progetto_ProgAvanzata\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
 
 !ENTRY org.eclipse.jface 2 0 2023-01-16 10:38:08.708
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-01-16 10:38:08.708
+=======
+!ENTRY ch.qos.logback.classic 1 0 2023-01-13 11:50:51.489
+!MESSAGE Logback config file: C:\Users\giona\OneDrive\Documenti\Unibg-Condiviso\Programmazione_Avanzata\Progetto_ProgAvanzata\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-01-13 11:50:59.779
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-13 11:50:59.779
+>>>>>>> Stashed changes
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -4992,7 +5018,11 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+<<<<<<< Updated upstream
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-01-16 10:38:08.708
+=======
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-13 11:50:59.779
+>>>>>>> Stashed changes
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
@@ -5011,14 +5041,22 @@ Binding(ALT+SHIFT+R,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.egit.ui 2 0 2023-01-16 10:38:14.361
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-13 11:51:06.811
+>>>>>>> Stashed changes
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\giona'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.jdt.core 4 4 2023-01-16 10:38:14.786
+=======
+!ENTRY org.eclipse.jdt.core 4 4 2023-01-13 11:51:07.211
+>>>>>>> Stashed changes
 !MESSAGE Exception while reading last build state for: P/Progetto_Palestra_Java
 !STACK 1
 org.eclipse.core.runtime.CoreException: Error reading last build state for project Progetto_Palestra_Java
@@ -5056,7 +5094,11 @@ Caused by: java.io.FileNotFoundException: File C:\Users\giona\.p2\pool\plugins\o
 	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getCtSym(JRTUtil.java:202)
 	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:77)
 	... 22 more
+<<<<<<< Updated upstream
 !SUBENTRY 1 org.eclipse.jdt.core 4 2 2023-01-16 10:38:14.786
+=======
+!SUBENTRY 1 org.eclipse.jdt.core 4 2 2023-01-13 11:51:07.211
+>>>>>>> Stashed changes
 !MESSAGE Error reading last build state for project Progetto_Palestra_Java
 !STACK 1
 org.eclipse.core.runtime.CoreException: Failed to init ct.sym for C:\Users\giona\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\lib\jrt-fs.jar
@@ -5091,7 +5133,11 @@ Caused by: java.io.FileNotFoundException: File C:\Users\giona\.p2\pool\plugins\o
 	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getCtSym(JRTUtil.java:202)
 	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:77)
 	... 22 more
+<<<<<<< Updated upstream
 !SUBENTRY 2 org.eclipse.jdt.core 4 0 2023-01-16 10:38:14.786
+=======
+!SUBENTRY 2 org.eclipse.jdt.core 4 0 2023-01-13 11:51:07.211
+>>>>>>> Stashed changes
 !MESSAGE Failed to init ct.sym for C:\Users\giona\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\lib\jrt-fs.jar
 !STACK 0
 java.io.FileNotFoundException: File C:\Users\giona\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\lib\ct.sym does not exist
@@ -5123,3 +5169,65 @@ java.io.FileNotFoundException: File C:\Users\giona\.p2\pool\plugins\org.eclipse.
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+<<<<<<< Updated upstream
+=======
+!SESSION 2023-01-16 10:34:49.492 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-01-16 10:34:52.739
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-01-16 10:34:59.636
+!MESSAGE Logback config file: C:\Users\giona\OneDrive\Documenti\Unibg-Condiviso\Programmazione_Avanzata\Progetto_ProgAvanzata\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-01-16 10:35:09.177
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-16 10:35:09.177
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-16 10:35:09.177
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-16 10:35:14.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\giona'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+>>>>>>> Stashed changes
