@@ -15,7 +15,7 @@ class Abbonato{
 	public:
 		string nome;
 		string cognome;
-		int anno_nascita;
+		const int anno_nascita;
 		int conto;
 		int codice;
 		bool iscritto;

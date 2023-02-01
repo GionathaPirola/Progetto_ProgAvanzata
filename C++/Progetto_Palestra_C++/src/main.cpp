@@ -7,6 +7,7 @@
 //============================================================================
 
 #include <iostream>
+#include <string.h>
 #include "Abbonato.h"
 #include "Abbonato_plus.h"
 #include "Corso.h"

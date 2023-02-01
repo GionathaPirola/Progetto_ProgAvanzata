@@ -23,7 +23,7 @@ class Abbonato_plus: public Abbonato{
 		SequenzaGenerica<Corso> lc;
 
 	public:
-		//Costruttore che richiama il costruttore della classe padre
+		//Costruttore che richiama il costruttore della classe padre tramite inizializer list
 		Abbonato_plus(string nome, string cognome, int anno_nascita, bool iscritto) : Abbonato(nome,cognome,anno_nascita,iscritto){
 			conto = 520;
 		}

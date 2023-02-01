@@ -1,7 +1,4 @@
 INDEX VERSION 1.131+C:\Users\giona\OneDrive\Documenti\Unibg-Condiviso\Programmazione_Avanzata\Progetto_ProgAvanzata\Java\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
-<<<<<<< Updated upstream
-=======
 3108944545.index
->>>>>>> Stashed changes
 430896072.index

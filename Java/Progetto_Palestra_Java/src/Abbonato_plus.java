@@ -10,7 +10,8 @@ public class Abbonato_plus extends Abbonato{
 		super(nome, cognome, anno_nascita);
 		this.conto = 520;	//Il conto di un abbonato_plus è maggiore di base
 	}
-
+	
+	//Override del metodo toString
 	public String toString() {
 		return codice + " " + conto + "€ " + " " + nome + " " + cognome + " " + anno_nascita + " Corsi: " + corsi.toString();
 	}

@@ -5,7 +5,7 @@ import java.util.List;
 public class SequenzaOrdinabile<T extends Comparable <T>>{
 	List<T> array = new ArrayList<T>();
 	
-	//Quando inserisco qualcosa controllo che non sia già presente lo stesso ogetto
+	//Quando inserisco qualcosa controllo che non sia già presente lo stesso oggetto
 	void insert(T obj){							
 		for(int k=0; k< array.size(); k++) {
 			if(array.get(k).compareTo(obj) == 0)
